@@ -17,7 +17,7 @@ export default function Custom404() {
   return (
     <>
       <Head>
-        <title>Page Not Found - tiro</title>
+        <title>Page Not Found - Tiro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div

@@ -46,7 +46,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us - tiro</title>
+        <title>Contact Us - Tiro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div

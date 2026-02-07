@@ -18,7 +18,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Us - tiro</title>
+        <title>About Us - Tiro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div

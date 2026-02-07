@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>tiro - Early-stage accelerator</title>
+        <title>Tiro VC</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div

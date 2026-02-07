@@ -19,7 +19,7 @@ export default function Thesis() {
   return (
     <>
       <Head>
-        <title>Our Thesis - tiro</title>
+        <title>Our Thesis - Tiro</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div
