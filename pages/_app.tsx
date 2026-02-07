@@ -1,10 +1,33 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { PageTransitionProvider } from "@/components/PageTransitionProvider";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <PageTransitionProvider>
+      <Head>
+        <title>Tiro VC</title>
+        <meta name="description" content="Tiro is a boutique startup studio fueling the ambition of independent builders. We invest micro/small cheques in early stage projects." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://tiro.vc/" />
+        <meta property="og:title" content="Tiro VC" />
+        <meta property="og:description" content="Tiro is a boutique startup studio fueling the ambition of independent builders. We invest micro/small cheques in early stage projects." />
+        <meta property="og:image" content="https://tiro.vc/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://tiro.vc/" />
+        <meta property="twitter:title" content="Tiro VC" />
+        <meta property="twitter:description" content="Tiro is a boutique startup studio fueling the ambition of independent builders. We invest micro/small cheques in early stage projects." />
+        <meta property="twitter:image" content="https://tiro.vc/og-image.png" />
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+      </Head>
       <svg className="hidden-svg-filter">
         <filter id="blue-noise-dither" x="0%" y="0%" width="100%" height="100%">
            {/* Generate noise - lowered frequency slightly for visibility */}

@@ -44,16 +44,6 @@ export default function Home() {
                   Fueling the <span className="italic">ambition</span> of independent builders
                 </h1>
               </FadeIn>
-              <FadeIn delay={200}>
-                <div className="flex gap-4 mt-8">
-                  <button className="bg-black text-white px-6 py-3 text-sm font-medium hover:bg-zinc-800 transition-colors rounded-none">
-                    Apply Now
-                  </button>
-                  <button className="border border-black text-black px-6 py-3 text-sm font-medium hover:bg-zinc-50 transition-colors rounded-none">
-                    Learn More
-                  </button>
-                </div>
-              </FadeIn>
             </div>
           </div>
 
@@ -70,9 +60,20 @@ export default function Home() {
             {/* Glassmorphic Card */}
             <div className="absolute bottom-8 left-8 lg:left-12 max-w-md p-6 bg-white/10 backdrop-blur-md border border-white/20 shadow-2xl">
               <FadeIn delay={400}>
-              <p className="text-white text-lg font-normal leading-relaxed drop-shadow-sm">
-                Ship faster, scale smarter. We help you turn your side project into a sustainable business.
-              </p>
+                <div>
+                  <div className="mb-3">
+                    <h2 className="text-4xl text-white tracking-tight leading-none mb-1 font-sans">tiro</h2>
+                    <span className="text-white/80 text-sm font-sans">/ˈtʌɪrəʊ/</span>
+                  </div>
+                  
+                  <div className="space-y-1">
+                      <p className="text-white/80 italic font-serif text-sm">noun</p>
+                      <p className="text-white/60 text-xs font-medium mb-1">noun: <strong className="text-white font-bold">tiro</strong></p>
+                      <p className="text-xl text-white font-serif leading-tight">
+                          a beginner or novice.
+                      </p>
+                  </div>
+                </div>
               </FadeIn>
             </div>
           </div>

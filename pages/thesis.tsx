@@ -42,20 +42,20 @@ export default function Thesis() {
                 <div className="space-y-8 mb-12">
                    <FadeIn delay={100}>
                    <div>
-                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Deep Tech & Science</h3>
-                      <p className="text-zinc-600">Backing breakthrough innovations that solve fundamental problems in energy, compute, and biology.</p>
+                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Public Goods</h3>
+                      <p className="text-zinc-600">Backing breakthrough innovations that solve fundamental problems in society.</p>
                    </div>
                    </FadeIn>
                    <FadeIn delay={200}>
                    <div>
-                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Vertical AI</h3>
-                      <p className="text-zinc-600">Software that goes beyond productivity to reimagine how legacy industries operate.</p>
+                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Ecosystem enablers</h3>
+                      <p className="text-zinc-600">Software that lives behind the scenes to support and enhance existing software ecosystem.</p>
                    </div>
                    </FadeIn>
                    <FadeIn delay={300}>
                    <div>
-                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Decentralized Systems</h3>
-                      <p className="text-zinc-600">Infrastructure that enables a more open, ownership-driven internet economy.</p>
+                      <h3 className="font-serif text-2xl text-zinc-900 mb-2">Decentralized & Centralized Systems</h3>
+                      <p className="text-zinc-600">Infrastructure that enables a more open, free and ownership-driven internet economy.</p>
                    </div>
                    </FadeIn>
                 </div>

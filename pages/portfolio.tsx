@@ -35,7 +35,7 @@ export default function Portfolio() {
                   <span className="italic">Stealth</span> Portfolio
                 </h1>
                 <p className="text-lg lg:text-xl text-zinc-600 leading-relaxed mb-8">
-                  We back founders who are building in the dark to serve the light. Due to the sensitive nature of these early-stage ventures, specific company details are currently private.
+                  We back founders who are building in the dark to serve the light. As we are a new boutique VC, our portfolio is still developing.
                 </p>
                 <div className="p-6 bg-zinc-50 border border-zinc-100 mb-12">
                     <p className="text-sm text-zinc-500 mb-4">
@@ -64,7 +64,7 @@ export default function Portfolio() {
                     </div>
                     <div>
                         <p className="text-zinc-600 leading-relaxed group-hover:text-black transition-colors duration-300">
-                            A decentralized compute network allowing idle GPU resources to be rented for AI model training at 10x lower cost than traditional clouds.
+                            AI enabled developer tool for building and testing local first AI models
                         </p>
                         <div className="mt-4 flex gap-2">
                              <span className="text-xs uppercase tracking-wider text-zinc-400 border border-zinc-200 px-2 py-1 group-hover:border-zinc-400 transition-colors">Infrastructure</span>
@@ -85,11 +85,11 @@ export default function Portfolio() {
                     </div>
                     <div>
                         <p className="text-zinc-600 leading-relaxed group-hover:text-black transition-colors duration-300">
-                            Vertical operating system for the maritime logistics industry, automating customs clearance and load balancing using proprietary LLMs.
+                            Private inference network with a plug-and-play API and a computation marketplace for AI workloads
                         </p>
                         <div className="mt-4 flex gap-2">
-                             <span className="text-xs uppercase tracking-wider text-zinc-400 border border-zinc-200 px-2 py-1 group-hover:border-zinc-400 transition-colors">SaaS</span>
-                             <span className="text-xs uppercase tracking-wider text-zinc-400 border border-zinc-200 px-2 py-1 group-hover:border-zinc-400 transition-colors">Pre-Seed</span>
+                             <span className="text-xs uppercase tracking-wider text-zinc-400 border border-zinc-200 px-2 py-1 group-hover:border-zinc-400 transition-colors">Infrastructure</span>
+                             <span className="text-xs uppercase tracking-wider text-zinc-400 border border-zinc-200 px-2 py-1 group-hover:border-zinc-400 transition-colors">Angel</span>
                         </div>
                     </div>
                   </div>

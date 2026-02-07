@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
@@ -21,37 +22,14 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-6 px-6 lg:px-12 bg-white border-b border-zinc-200">
         <Link href="/" className="flex items-center gap-2 relative z-50">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="text-black"
-          >
-            <path
-              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M7 12L12 17L17 12"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <path
-              d="M12 2V12"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-          <span className="text-xl font-bold tracking-tight">tiro</span>
+          <Image 
+            src="/logo.svg" 
+            alt="Tiro Logo" 
+            width={24} 
+            height={24} 
+            className="w-6 h-6 md:w-7 md:h-7"
+          />
+          <span className="text-xl md:text-2xl font-bold tracking-tight">tiro</span>
         </Link>
 
         {/* Desktop Navigation */}
