@@ -28,9 +28,18 @@ export default function Home() {
           <div className="lg:w-[50%] px-6 lg:px-12 flex flex-col justify-between py-12 lg:h-screen">
             <FadeIn delay={100}>
               <div className="text-zinc-900 lg:pt-8">
-                <h1 className="font-sans text-4xl lg:text-5xl tracking-tight leading-none mb-2">
-                  tiro
-                </h1>
+                <div className="flex items-center gap-3 mb-2">
+                  <Image
+                    src="/tiro-logo.svg"
+                    alt="Tiro"
+                    width={48}
+                    height={48}
+                    className="w-10 h-10 lg:w-12 lg:h-12"
+                  />
+                  <h1 className="font-sans text-4xl lg:text-5xl tracking-tight leading-none">
+                    tiro
+                  </h1>
+                </div>
                 <span className="text-zinc-500 text-sm font-sans">/ˈtʌɪrəʊ/</span>
 
                 <div className="mt-4 space-y-1">

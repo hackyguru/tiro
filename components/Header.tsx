@@ -23,7 +23,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between py-6 px-6 lg:px-12 bg-white border-b border-zinc-200">
         <Link href="/" className="flex items-center gap-2 relative z-50">
           <Image 
-            src="/logo.svg" 
+            src="/tiro-logo.svg"
             alt="Tiro Logo" 
             width={24} 
             height={24} 

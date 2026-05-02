@@ -26,7 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="twitter:title" content="Tiro VC" />
         <meta property="twitter:description" content="Tiro is a boutique startup studio fueling the ambition of independent builders. We invest micro/small cheques in early stage projects." />
         <meta property="twitter:image" content="https://tiro.vc/og-image.png" />
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/tiro-logo.svg" type="image/svg+xml" />
       </Head>
       <svg className="hidden-svg-filter">
         <filter id="blue-noise-dither" x="0%" y="0%" width="100%" height="100%">
